@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ssm:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc9192de-8016-48f5-bd73-cdcf258a5889" name="变更" comment="变更">
+      <change afterPath="$PROJECT_DIR$/../Demo/out/production/Demo/test03/Demo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/out/production/Demo/test03/Demo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/out/production/Demo/test04/Demo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/out/production/Demo/test04/Demo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/out/production/Demo/test04/Demo4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/src/test03/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/src/test03/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/src/test04/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/src/test04/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Demo/src/test04/Demo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_api_2_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_core_2_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_reload4j_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_proxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_dynamicSQL/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/java/com/qfnu/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/java/com/qfnu/utils/SqlSessionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/resources/com/qfnu/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/src/test/java/com/qfnu/test/MyBatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/target/classes/com/qfnu/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/target/classes/com/qfnu/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/target/classes/com/qfnu/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/target/classes/com/qfnu/utils/SqlSessionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/target/classes/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/target/test-classes/com/qfnu/test/MyBatisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_mbg/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/java/com/qfnu/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/java/com/qfnu/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/java/com/qfnu/utils/SqlSessionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/resources/com/qfnu/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/test/java/com/qfnu/test/ParameterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/target/classes/com/qfnu/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/target/classes/com/qfnu/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/target/classes/com/qfnu/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/target/classes/com/qfnu/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/target/classes/com/qfnu/utils/SqlSessionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/target/classes/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_parameter/target/test-classes/com/qfnu/test/ParameterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_resultMap/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-transaction/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_helloworld/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc_xml/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_listener/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_mvc_ajax/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_mvc_annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_mvc_demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_mvc_extension/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_mvc_helloworld/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_mvc_rest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Demo/leetcode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo/out/production/Demo/leetcode/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/src/leetcode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo/src/leetcode/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/src/test01/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo/src/test01/Demo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_helloworld/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_helloworld/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_helloworld/src/main/java/com/qfnu/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/java/com/qfnu/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_helloworld/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/java/com/qfnu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web_demo01/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web_demo01/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web_demo01/web/Login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web_demo01/web/WEB-INF/classes/DBOper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web_demo01/web/WEB-INF/classes/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Web_demo01/web/WEB-INF/classes/RegisterServlet.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
+        <option value="mybatis-config" />
+        <option value="Interface" />
+        <option value="mybatis-mapper" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2Ftk7u4rMVEmfJnS5cFhLqJ0Z7K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Notification.DisplayName-DoNotAsk-Spring Configuration Check": "检测到 Spring 配置问题",
+    "Notification.DoNotAsk-Spring Configuration Check": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
+    "last_opened_file_path": "D:/IDEA/project/SSM/ssm/src/main/webapp",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15332031",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "b523992db3c807af8fc3d6c67b17254c"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\project\SSM\ssm\src\main\webapp" />
+      <recent name="D:\IDEA\project\SSM\spring_listener\src\main\resources" />
+      <recent name="D:\IDEA\project\SSM\spring_mvc_extension\src\main\resources" />
+      <recent name="D:\IDEA\project\SSM\spring_mvc_extension\src\main\webapp\WEB-INF" />
+      <recent name="D:\IDEA\project\SSM\spring_mvc_ajax\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA\project\SSM\spring_ioc_xml\src\main\resources" />
+      <recent name="D:\IDEA\project\SSM\mybatis_helloworld\src\main\resources\com\qfnu\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qfnu.utils" />
+      <recent name="com.qfnu.pojo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat 服务器.SpringMVC">
+    <configuration name="JdbcTemplateTest.testGetAllUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-transaction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qfnu.spring.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qfnu.spring.test" />
+      <option name="MAIN_CLASS_NAME" value="com.qfnu.spring.test.JdbcTemplateTest" />
+      <option name="METHOD_NAME" value="testGetAllUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTemplateTest.testGetCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-transaction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qfnu.spring.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qfnu.spring.test" />
+      <option name="MAIN_CLASS_NAME" value="com.qfnu.spring.test.JdbcTemplateTest" />
+      <option name="METHOD_NAME" value="testGetCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="mybatis_helloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qfnu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18" />
+      <option name="PACKAGE_NAME" value="com.qfnu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.qfnu.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TxByAnnotation.testBuyBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-transaction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qfnu.spring.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qfnu.spring.test" />
+      <option name="MAIN_CLASS_NAME" value="com.qfnu.spring.test.TxByAnnotation" />
+      <option name="METHOD_NAME" value="testBuyBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TxByXML.testBuyBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-transaction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qfnu.spring.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qfnu.spring.test" />
+      <option name="MAIN_CLASS_NAME" value="com.qfnu.spring.test.TxByXML" />
+      <option name="METHOD_NAME" value="testBuyBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SSM/spring_mvc_demo/src/main/webapp/WEB-INF/templates/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringMVC" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.11" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="ssm:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssm" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="caf6bcb9-c921-4209-8761-b00850832f9f" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60920" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript 调试.index.html" />
+      <item itemvalue="JUnit.MyBatisTest" />
+      <item itemvalue="JUnit.JdbcTemplateTest.testGetAllUser" />
+      <item itemvalue="JUnit.JdbcTemplateTest.testGetCount" />
+      <item itemvalue="JUnit.TxByAnnotation.testBuyBook" />
+      <item itemvalue="JUnit.TxByXML.testBuyBook" />
+      <item itemvalue="Tomcat 服务器.SpringMVC" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript 调试.index.html" />
+        <item itemvalue="JUnit.TxByXML.testBuyBook" />
+        <item itemvalue="JUnit.TxByAnnotation.testBuyBook" />
+        <item itemvalue="JUnit.JdbcTemplateTest.testGetCount" />
+        <item itemvalue="JUnit.JdbcTemplateTest.testGetAllUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="dc9192de-8016-48f5-bd73-cdcf258a5889" name="变更" comment="" />
+      <created>1665318605549</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665318605549</updated>
+      <workItem from="1665318606864" duration="3559000" />
+      <workItem from="1665322432194" duration="3749000" />
+      <workItem from="1665363754817" duration="806000" />
+      <workItem from="1665364698025" duration="6080000" />
+      <workItem from="1665404493350" duration="3078000" />
+      <workItem from="1665410466421" duration="532000" />
+      <workItem from="1665467761683" duration="26000" />
+      <workItem from="1665486352219" duration="1349000" />
+      <workItem from="1665565813281" duration="4167000" />
+      <workItem from="1665574496387" duration="3207000" />
+      <workItem from="1665656954941" duration="4279000" />
+      <workItem from="1665671129865" duration="2150000" />
+      <workItem from="1665747780431" duration="4587000" />
+      <workItem from="1665890065532" duration="218000" />
+      <workItem from="1665895362317" duration="5912000" />
+      <workItem from="1665910364135" duration="11000" />
+      <workItem from="1666012432807" duration="747000" />
+      <workItem from="1666015375940" duration="646000" />
+      <workItem from="1666105471546" duration="28000" />
+      <workItem from="1666579900261" duration="9000" />
+      <workItem from="1667044118077" duration="7517000" />
+      <workItem from="1667097632530" duration="1422000" />
+      <workItem from="1667180664755" duration="3967000" />
+      <workItem from="1667201139623" duration="1235000" />
+      <workItem from="1667202414189" duration="2269000" />
+      <workItem from="1667230078028" duration="654000" />
+      <workItem from="1667305310544" duration="87000" />
+      <workItem from="1667384284998" duration="3821000" />
+      <workItem from="1667389947666" duration="48000" />
+      <workItem from="1667482926515" duration="5743000" />
+      <workItem from="1667526825548" duration="3740000" />
+      <workItem from="1667550412805" duration="3684000" />
+      <workItem from="1667570169322" duration="3441000" />
+      <workItem from="1667616915768" duration="1625000" />
+      <workItem from="1667637676294" duration="7410000" />
+      <workItem from="1667800784006" duration="2401000" />
+      <workItem from="1667822065624" duration="8335000" />
+      <workItem from="1667887041779" duration="709000" />
+      <workItem from="1668092904106" duration="2796000" />
+      <workItem from="1668153171955" duration="2374000" />
+      <workItem from="1668241345138" duration="10469000" />
+      <workItem from="1668315317550" duration="2800000" />
+      <workItem from="1668331561865" duration="14000" />
+      <workItem from="1668405315721" duration="3878000" />
+      <workItem from="1668496987007" duration="1511000" />
+      <workItem from="1668498510648" duration="108000" />
+      <workItem from="1668498631150" duration="206000" />
+      <workItem from="1668498848326" duration="2166000" />
+      <workItem from="1668578686055" duration="6169000" />
+      <workItem from="1668603008181" duration="30000" />
+      <workItem from="1668673638846" duration="5395000" />
+      <workItem from="1669293980682" duration="3656000" />
+      <workItem from="1669341687652" duration="3951000" />
+      <workItem from="1669361862286" duration="8969000" />
+      <workItem from="1669465957023" duration="1384000" />
+      <workItem from="1669467593462" duration="3002000" />
+      <workItem from="1669527983971" duration="10966000" />
+      <workItem from="1669612125577" duration="7459000" />
+      <workItem from="1669711624204" duration="4182000" />
+      <workItem from="1669789952644" duration="3637000" />
+      <workItem from="1669807643204" duration="17000" />
+      <workItem from="1669812304106" duration="2841000" />
+      <workItem from="1669966088217" duration="10024000" />
+      <workItem from="1670065974167" duration="11000" />
+      <workItem from="1671019428788" duration="5344000" />
+      <workItem from="1671026403691" duration="4820000" />
+      <workItem from="1671102553814" duration="10292000" />
+      <workItem from="1671198770313" duration="2168000" />
+      <workItem from="1671263606339" duration="4119000" />
+      <workItem from="1671269940168" duration="1503000" />
+      <workItem from="1671277134841" duration="6693000" />
+      <workItem from="1671358596722" duration="4467000" />
+      <workItem from="1671369086909" duration="204000" />
+      <workItem from="1671437973099" duration="3270000" />
+      <workItem from="1671521400099" duration="3925000" />
+      <workItem from="1671711097867" duration="4969000" />
+      <workItem from="1671786759223" duration="8637000" />
+      <workItem from="1671807001537" duration="357000" />
+      <workItem from="1671869090691" duration="3700000" />
+      <workItem from="1671873909601" duration="4543000" />
+      <workItem from="1671883512920" duration="3808000" />
+      <workItem from="1671960545642" duration="9541000" />
+      <workItem from="1672055465253" duration="41000" />
+      <workItem from="1672057744001" duration="95000" />
+      <workItem from="1672057864336" duration="3402000" />
+      <workItem from="1672404588319" duration="4245000" />
+      <workItem from="1672413611721" duration="4566000" />
+      <workItem from="1672479936868" duration="11715000" />
+      <workItem from="1672580565773" duration="31000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

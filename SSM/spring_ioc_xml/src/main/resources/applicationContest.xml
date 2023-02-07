@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+
+    <bean id="studentOne" class="com.qfnu.spring.pojo.Student"></bean>
+
+    <bean id="studentTwo" class="com.qfnu.spring.pojo.Student">
+        <!--
+            property:通过成员变量的set方法进行赋值
+            name:设置需要赋值的属性名（和set方法有关）
+            value:指定属性值
+        -->
+        <property name="sid" value="1001"></property>
+        <property name="sname" value="张三"></property>
+        <property name="age" value="23"></property>
+        <property name="gender" value="男"></property>
+      </bean>
+
+<!--    <bean id="studentThree" class="com.qfnu.spring.pojo.Student">
+        <constructor-arg value="1002" name="sid"></constructor-arg>
+        <constructor-arg value="李四" name="sname"></constructor-arg>
+        <constructor-arg value="24" name="age"></constructor-arg>
+        <constructor-arg value="女" name="gender"></constructor-arg>
+    </bean>-->
+
+
+    <bean id="studentFour" class="com.qfnu.spring.pojo.Student">
+        <property name="sid" value="1001"></property>
+        <!-- 小于号在XML文档中用来定义标签的开始，不能随便使用 -->
+        <!-- 解决方案一：使用XML实体来代替 -->
+        <!-- <property name="sname" value="<张三>"></property> -->
+        <!--类型 "property" 相关联的 "value" 属性值不能包含 '<' 字符。-->
+        <property name="sname" value="&lt;张三&gt;"></property>
+        <property name="age">
+            <null></null>
+        </property>
+        <property name="gender" value="男"></property>
+    </bean>
+
+    <bean id="studentFive" class="com.qfnu.spring.pojo.Student">
+        <property name="sid" value="1001"></property>
+        <!-- 小于号在XML文档中用来定义标签的开始，不能随便使用 -->
+        <!-- 解决方案一：使用XML实体来代替 -->
+        <!-- <property name="sname" value="<张三>"></property> -->
+        <!--类型 "property" 相关联的 "value" 属性值不能包含 '<' 字符。-->
+        <!-- 解决方案二：使用CDATA节 -->
+        <!-- CDATA中的C代表Character，是文本、字符的含义，CDATA就表示纯文本数据 -->
+        <!-- XML解析器看到CDATA节就知道这里是纯文本，就不会当作XML标签或属性来解析 -->
+        <!-- 所以CDATA节中写什么符号都随意 -->
+        <property name="sname">
+            <value><![CDATA[<王五>]]></value>
+        </property>
+        <property name="age">
+            <null></null>
+        </property>
+        <property name="gender" value="男"></property>
+    </bean>
+
+    <!--给类类型属性赋值，引用外部的bean-->
+    <bean id="studentSix" class="com.qfnu.spring.pojo.Student">
+        <property name="sid" value="1002"></property>
+        <property name="sname" value="赵六"></property>
+        <property name="age" value="26"></property>
+        <property name="gender" value="男"></property>
+        <property name="clazz" ref="clazzOne"></property>
+    </bean>
+    <bean id="clazzOne" class="com.qfnu.spring.pojo.Clazz">
+        <property name="cid" value="1111"></property>
+        <property name="cname" value="中华班"></property>
+    </bean>
+
+    <!--给类类型属性赋值，使用级联方式-->
+    <bean id="studentSeven" class="com.qfnu.spring.pojo.Student">
+        <property name="sid" value="1002"></property>
+        <property name="sname" value="赵六"></property>
+        <property name="age" value="26"></property>
+        <property name="gender" value="男"></property>
+        <property name="clazz" ref="clazzOne"></property>
+        <!--使用级联方式,要保证提前为clazz属性复制或者实例化对象-->
+        <property name="clazz.cid" value="1111"></property>
+        <property name="clazz.cname" value="第一班"></property>
+    </bean>
+
+    <!--给类类型属性赋值，使用内部bean方式-->
+    <bean id="studentEight" class="com.qfnu.spring.pojo.Student">
+        <property name="sid" value="1002"></property>
+        <property name="sname" value="赵六"></property>
+        <property name="age" value="26"></property>
+        <property name="gender" value="男"></property>
+        <property name="clazz">
+            <bean id="clazzInner" class="com.qfnu.spring.pojo.Clazz">
+                <property name="cid" value="1111"></property>
+                <property name="cname" value="第一班"></property>
+            </bean>
+        </property>
+    </bean>
+
+
+    <!--给数组类型赋值-->
+    <bean id="studentNine" class="com.qfnu.spring.pojo.Student">
+        <property name="sid" value="1002"></property>
+        <property name="sname" value="赵六"></property>
+        <property name="age" value="26"></property>
+        <property name="gender" value="男"></property>
+        <property name="clazz">
+            <bean id="clazzInner" class="com.qfnu.spring.pojo.Clazz">
+                <property name="cid" value="1111"></property>
+                <property name="cname" value="第一班"></property>
+            </bean>
+        </property>
+        <property name="hobby">
+            <array>
+                <value>抽烟</value>
+                <value>喝酒</value>
+                <value>烫头</value>
+            </array>
+        </property>
+        <!--给Map集合类型赋值-->
+        <!--<property name="teacherMap">
+            <map>
+                <entry key="10086" value-ref="teacherOne"></entry>
+                <entry key="10010" value-ref="teacherTwo"></entry>
+            </map>
+        </property>-->
+        <property name="teacherMap" ref="teacherMap"></property>
+    </bean>
+
+    <!--给集合类型赋值-->
+    <bean id="clazzTwo" class="com.qfnu.spring.pojo.Clazz">
+        <property name="cid" value="1111"></property>
+        <property name="cname" value="中华班"></property>
+        <property name="students" ref="studentList">
+            <!--<list>
+                <ref bean="studentOne"></ref>
+                <ref bean="studentTwo"></ref>
+                <ref bean="studentFour"></ref>
+            </list>-->
+        </property>
+    </bean>
+    <!--配置一个集合类型的bean，需要使用util的约束-->
+    <util:list id="studentList">
+        <ref bean="studentOne"></ref>
+        <ref bean="studentTwo"></ref>
+        <ref bean="studentFour"></ref>
+    </util:list>
+    <!--配置一个Map集合类型的bean，需要使用util的约束-->
+    <util:map id="teacherMap">
+        <entry key="10086" value-ref="teacherOne"></entry>
+        <entry key="10010" value-ref="teacherTwo"></entry>
+    </util:map>
+
+
+    <bean id="teacherOne" class="com.qfnu.spring.pojo.Teacher">
+        <property name="tid" value="10086"></property>
+        <property name="tname" value="大宝"></property>
+     </bean>
+
+    <bean id="teacherTwo" class="com.qfnu.spring.pojo.Teacher">
+        <property name="tid" value="10010"></property>
+        <property name="tname" value="小宝"></property>
+    </bean>
+
+    <bean id="studentTen" class="com.qfnu.spring.pojo.Student"
+          p:sid="1005" name="小明" p:teacherMap-ref="teacherMap">
+    </bean>
+
+</beans>

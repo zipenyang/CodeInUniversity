@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<h1>index.html</h1>
+<a th:href="@{/hello}">测试注解位置</a>
+<a th:href="@{/abc}">测试value属性</a>
+<a th:href="@{/aac/test/ant}">测试ant属性</a>
+<a th:href="@{/test/rest/admin/1}">测试value属性中的占位符</a>
+<hr>
+    <form th:action="@{/param/pojo}" method="post">
+        用户名：<input type="text" name="username"><br>
+        密码：<input type="password" name="password"><br>
+        <input type="submit" value="登录"><br>
+    </form>
+
+<a th:href="@{/test/mav}">测试ModelAndView共享数据</a>
+<hr>
+<a th:href="@{/test/view/thymeleaf}">测试SpringMVC的Thymeleaf视图</a>
+<a th:href="@{/test/view/forward}">测试SpringMVC的Forward视图</a>
+<a th:href="@{/test/view/redirect}">测试SpringMVC的Redirect视图</a>
+</body>
+</html>
