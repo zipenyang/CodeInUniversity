@@ -10,92 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc9192de-8016-48f5-bd73-cdcf258a5889" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/../Demo/out/production/Demo/test03/Demo1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo/out/production/Demo/test03/Demo2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo/out/production/Demo/test04/Demo1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo/out/production/Demo/test04/Demo2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo/out/production/Demo/test04/Demo4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo/src/test03/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo/src/test03/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo/src/test04/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo/src/test04/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Demo/src/test04/Demo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_api_2_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_core_2_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_reload4j_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_proxy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_cache/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_dynamicSQL/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/java/com/qfnu/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/java/com/qfnu/utils/SqlSessionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/resources/com/qfnu/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/src/test/java/com/qfnu/test/MyBatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/target/classes/com/qfnu/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/target/classes/com/qfnu/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/target/classes/com/qfnu/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/target/classes/com/qfnu/utils/SqlSessionUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/target/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/target/classes/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_helloworld/target/test-classes/com/qfnu/test/MyBatisTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_mbg/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_parameter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/java/com/qfnu/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/java/com/qfnu/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/java/com/qfnu/utils/SqlSessionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/resources/com/qfnu/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_parameter/src/test/java/com/qfnu/test/ParameterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_parameter/target/classes/com/qfnu/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_parameter/target/classes/com/qfnu/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_parameter/target/classes/com/qfnu/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_parameter/target/classes/com/qfnu/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_parameter/target/classes/com/qfnu/utils/SqlSessionUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_parameter/target/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_parameter/target/classes/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_parameter/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_parameter/target/test-classes/com/qfnu/test/ParameterTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_resultMap/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-transaction/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_aop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_helloworld/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc_annotation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc_xml/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_listener/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_ajax/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_annotation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_extension/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_helloworld/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc_rest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/out/production/Demo/leetcode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo/out/production/Demo/leetcode/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/leetcode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo/src/leetcode/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo/src/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo/src/test01/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo/src/test01/Demo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SSM.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_helloworld/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_helloworld/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_helloworld/src/main/java/com/qfnu/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_helloworld/src/main/java/com/qfnu/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis_helloworld/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_parameter/src/main/java/com/qfnu/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Web_demo01/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web_demo01/.idea/webContexts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Web_demo01/web/Login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Web_demo01/web/WEB-INF/classes/DBOper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Web_demo01/web/WEB-INF/classes/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Web_demo01/web/WEB-INF/classes/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +46,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -149,13 +74,18 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
     "jdk.selected.JAVA_MODULE": "openjdk-18",
-    "last_opened_file_path": "D:/IDEA/project/SSM/ssm/src/main/webapp",
+    "last_opened_file_path": "D:/IDEA/Projects/CodeInUniversity/spring-boot-04-web-restfulcrud",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15332031",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "spring.configuration.checksum": "b523992db3c807af8fc3d6c67b17254c"
+    "settings.editor.selected.configurable": "configurable.group.language",
+    "spring.configuration.checksum": "fec8691a32b4255a02250d3f49fed402",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -260,6 +190,19 @@
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SSM/spring_mvc_demo/src/main/webapp/WEB-INF/templates/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SSM" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SSM" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpringMVC" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.11" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -467,6 +410,8 @@
       <workItem from="1672413611721" duration="4566000" />
       <workItem from="1672479936868" duration="11715000" />
       <workItem from="1672580565773" duration="31000" />
+      <workItem from="1676009349596" duration="1334000" />
+      <workItem from="1676022476236" duration="40000" />
     </task>
     <servers />
   </component>

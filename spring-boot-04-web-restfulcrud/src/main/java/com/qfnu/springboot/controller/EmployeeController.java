@@ -19,6 +19,7 @@ public class EmployeeController {
     @GetMapping("/emps")
     public String list(Model model){
         Collection<Employee> employees = employeeDao.getAll();
+        //放在请求域中进行共享
         model.addAttribute("emps",employees);
         return "emp/list";
     }
