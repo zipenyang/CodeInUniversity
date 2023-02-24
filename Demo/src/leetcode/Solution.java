@@ -2102,7 +2102,7 @@ public class Solution {
         return n == 1;
     }
 
-    public int fib(int n) {
+/*    public int fib(int n) {
         if (n == 0) {
             return 0;
         }
@@ -2110,7 +2110,7 @@ public class Solution {
             return 1;
         }
         return fib(n - 1) + fib(n - 2);
-    }
+    }*/
 
     public int[] reversePrint(ListNode head) {
         List<Integer> temp = new ArrayList<>();
@@ -2355,5 +2355,19 @@ f(n,m)=[(m-1)%n+x+1]%n
     }
 
 
+    //剑指offer第10题，递归超出时间限制，因此使用动态规划法
+    public int fib(int n) {
+        final int MOD = 1000000007;
+        if (n < 2){
+            return n;
+        }
+        int p = 0, q = 0, r = 1;
+        for (int i = 2; i <= n; i++){
+            p = q;
+            q = r;
+            r = (p +q) % MOD;
+        }
+        return r;
+    }
 
 }

@@ -51,4 +51,7 @@ public class Tree {
         root.right = recur(pre_root + (index - in_left) + 1,index + 1,in_right);
         return root;
     }
+
+
+
 }
