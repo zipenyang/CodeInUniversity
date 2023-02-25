@@ -2370,4 +2370,37 @@ f(n,m)=[(m-1)%n+x+1]%n
         return r;
     }
 
+    public int numWays(int n) {
+        if(n == 0){
+            return 1;
+        }
+        if (n > 0 && n <= 2){
+            return n;
+        }
+        int p = 0, q = 1, r = 2;
+        for (int i = 3; i <= n; i++){
+            p = q;
+            q = r;
+            r = (p + q) % 1000000007;
+        }
+        return r;
+    }
+
+
+    public int minArray(int[] numbers) {
+        int low = 0;
+        int head = numbers.length - 1;
+        while (low < head){
+            int mid = (low + head) / 2;
+            if (numbers[mid] < numbers[head]) {
+                head = mid;
+            }else if (numbers[mid] > numbers[head]){
+                low = mid + 1;
+            }else {
+                head--;
+            }
+        }
+        return numbers[low];
+    }
+
 }
