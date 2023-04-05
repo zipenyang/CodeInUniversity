@@ -1,8 +1,6 @@
 package leetcode;
 
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
+
 import java.util.*;
 
 public class Solution {
@@ -2330,11 +2328,9 @@ f(n,m)=[(m-1)%n+x+1]%n
         while (i >= 0 && j < matrix[0].length) {
             if (matrix[i][j] > target) {
                 i--;
-            }
-            else if (matrix[i][j] < target) {
+            } else if (matrix[i][j] < target) {
                 j++;
-            }
-            else{
+            } else {
                 return true;
             }
         }
@@ -2344,10 +2340,10 @@ f(n,m)=[(m-1)%n+x+1]%n
 
     public String replaceSpace(String s) {
         StringBuilder res = new StringBuilder();
-        for (int i = 0; i < s.length(); i++){
-            if(s.charAt(i) == ' '){
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == ' ') {
                 res.append("%20");
-            }else {
+            } else {
                 res.append(s.charAt(i));
             }
         }
@@ -2358,27 +2354,27 @@ f(n,m)=[(m-1)%n+x+1]%n
     //剑指offer第10题，递归超出时间限制，因此使用动态规划法
     public int fib(int n) {
         final int MOD = 1000000007;
-        if (n < 2){
+        if (n < 2) {
             return n;
         }
         int p = 0, q = 0, r = 1;
-        for (int i = 2; i <= n; i++){
+        for (int i = 2; i <= n; i++) {
             p = q;
             q = r;
-            r = (p +q) % MOD;
+            r = (p + q) % MOD;
         }
         return r;
     }
 
     public int numWays(int n) {
-        if(n == 0){
+        if (n == 0) {
             return 1;
         }
-        if (n > 0 && n <= 2){
+        if (n > 0 && n <= 2) {
             return n;
         }
         int p = 0, q = 1, r = 2;
-        for (int i = 3; i <= n; i++){
+        for (int i = 3; i <= n; i++) {
             p = q;
             q = r;
             r = (p + q) % 1000000007;
@@ -2390,17 +2386,148 @@ f(n,m)=[(m-1)%n+x+1]%n
     public int minArray(int[] numbers) {
         int low = 0;
         int head = numbers.length - 1;
-        while (low < head){
+        while (low < head) {
             int mid = (low + head) / 2;
             if (numbers[mid] < numbers[head]) {
                 head = mid;
-            }else if (numbers[mid] > numbers[head]){
+            } else if (numbers[mid] > numbers[head]) {
                 low = mid + 1;
-            }else {
+            } else {
                 head--;
             }
         }
         return numbers[low];
     }
+
+
+    public boolean exist(char[][] board, String word) {
+        char[] words = word.toCharArray();
+        for (int i = 0; i < board.length; i++){
+            for (int j = 0; j < board[0].length; j++){
+                if (dfs(board,words,i,j,0)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    private boolean dfs(char[][] board, char[] words, int i, int j, int k) {
+        if (i >= board.length || i < 0 || j >= board[0].length || j < 0 || board[i][j] != words[k]){
+            return false;
+        }
+        if (k == words.length - 1){
+            return true;
+        }
+        board[i][j] = '\0';
+        boolean res = dfs(board,words,i + 1,j,k + 1) || dfs(board,words,i - 1,j,k + 1)
+                || dfs(board,words,i,j + 1,k + 1) || dfs(board,words,i,j - 1,k + 1);
+        board[i][j] = words[k];
+        return res;
+    }
+
+    //剑指offer14-1，采用动态规划法求解，其基本思想还是创建一个dp数组，通过dp数组存储每个数的最大值，最后返回dp[n]
+    //剑指offer14-2，绳子长度 n 的取值范围从 [2, 58] 变成了 [2, 1000]，动态规划不能克服大数越界的问题
+    //采用动态规划法求解已经不再适用，其实在剑指 Offer 14- I. 剪绳子 分析动态规划时，我们已经得到结论：
+    //最优解就是尽可能地分解出长度为 3 的小段。 但是我们要防止长度为 1 的小段出现。
+    //那么，当剩余长度为多少的时候我们就不继续分割了呢？
+    //当剩余长度 <= 4 时，便不再分割。 在此之前，执行贪心策略：不断地切割出 3 的小段。
+    //那么最后一次分割出 3 片段以后，剩余长度有会有什么情况呢？
+    //剩余长度等于4；
+    //剩余长度正好等于3；
+    //剩余长度等于2；
+    //不可能出现剩余长度等于 1 的情况，因为这意味着上一次分割时的片段已经只剩下 4 了，这不被允许继续分割。
+    /*
+    public int cuttingRope(int n) {
+        if (n == 2){
+            return 1;
+        }
+        if (n == 3){
+            return 2;
+        }
+        if (n == 4){
+            return 4;
+        }
+        long res = 1;
+        while (n > 4){
+            n = n - 3;
+            res = res * 3 % 1000000007;
+        }
+        res = res * n % 1000000007;
+        return (int) res;
+    }
+    * */
+
+    public int cuttingRope(int n) {
+        int[] dp = new int[n + 1];
+        for (int i = 2; i <= n; i++){
+            int curMax = 0;
+            for (int j = 1; j < i; j++){
+                curMax = Math.max(curMax,Math.max(j * (i - j), j * dp[i - j]));
+            }
+            dp[i] = curMax;
+        }
+        return dp[n];
+    }
+
+    public int hammingWeight(int n) {
+        int count = 0;
+        while (n != 0){
+            count += n & 1;
+            n >>>= 1;
+        }
+        return count;
+    }
+
+    public double myPow(double x, int n) {
+        long N = n;
+        return N >= 0 ? quickMul(x, N) : 1.0 / quickMul(x, -N);
+    }
+
+    public double quickMul(double x, long N) {
+        if (N == 0) {
+            return 1.0;
+        }
+        double y = quickMul(x, N / 2);
+        return N % 2 == 0 ? y * y : y * y * x;
+    }
+
+    public static int[] printNumbers(int n) {
+        int[] res = new int[(int) Math.pow(10,n) - 1];
+        for (int i = 0; i < Math.pow(10,n) - 1; i++){
+            res[i] = i + 1;
+        }
+        return res;
+    }
+
+    public ListNode deleteNode(ListNode head, int val) {
+        if (head.val == val){
+            return head.next;
+        }
+        ListNode pre = head,cur = head.next;
+        while (cur!=null && cur.val != val){
+            pre = cur;
+            cur = cur.next;
+        }
+        if (cur != null){
+            pre.next = cur.next;
+        }
+        return head;
+    }
+
+    public ListNode getKthFromEnd(ListNode head, int k) {
+        List<ListNode> list = new ArrayList<>();
+        while (head != null){
+            list.add(head);
+            head = head.next;
+        }
+        return list.get(list.size() - k);
+    }
+
+
+
+
+
+
 
 }

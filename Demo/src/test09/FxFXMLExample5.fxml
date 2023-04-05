@@ -1,0 +1,17 @@
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
+<VBox fx:id="vbox" layoutX="10.0" layoutY="10.0" prefHeight="250.0" prefWidth="300.0" spacing="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" >
+	<fx:define>
+		<Image url="/FXFXML/JavaFx.jpg" fx:id="javaImg"/>
+	</fx:define>
+	<children>
+    	<fx:include source="/FXFXML/FxFXMLLabel.fxml" fx:id="javaLbl" text="The JavaFX Image:"/>
+		<ImageView fx:id="view">
+			<image>
+				<fx:reference source="javaImg"/>
+			</image>
+		</ImageView>
+	</children>
+</VBox>
