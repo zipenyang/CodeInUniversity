@@ -10,7 +10,7 @@
     <packaging>war</packaging>
 
     <properties>
-        <spring.version>5.3.1</spring.version>
+        <spring.version>6.0.0</spring.version>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
